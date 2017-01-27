@@ -13,19 +13,19 @@ class Form extends Component {
         <fieldset>
           <h3>Your details</h3>
           <p>
-            <label class='label' for='email'>Email</label>
+            <label className='label' htmlFor='email'>Email</label>
             <input type='text' id='email' name='email' />
           </p>
           <p>
-            <label class='label' for='password'>Password</label>
-            <input class='error' type='password' id='password' name='username' />
+            <label className='label' htmlFor='password'>Password</label>
+            <input className='error' type='password' id='password' name='username' />
           </p>
         </fieldset>
 
         <fieldset>
           <h3>Your animal</h3>
           <p>
-            <label class='label' for='colour'>Colour</label>
+            <label className='label' htmlFor='colour'>Colour</label>
             <select name='colour' id='colour'>
               <option value=''>Choose colour</option>
               <option value='blue'>Blue</option>
@@ -36,23 +36,23 @@ class Form extends Component {
             </select>
           </p>
           <p>
-            <span class="label">Animal</span>
+            <span className="label">Animal</span>
 
             <input type='checkbox' name='animal' value='bear' id='bear' />
-            <label for='bear'>Bear</label>
+            <label htmlFor='bear'>Bear</label>
 
             <input type='checkbox' name='animal' value='tiger' id='tiger' />
-            <label for='tiger'>Tiger</label>
+            <label htmlFor='tiger'>Tiger</label>
 
             <input type='checkbox' name='animal' value='snake' id='snake' />
-            <label for='snake'>Snake</label>
+            <label htmlFor='snake'>Snake</label>
 
             <input type='checkbox' name='animal' value='donkey' id='donkey' />
-            <label for='donkey'>Donkey</label>
+            <label htmlFor='donkey'>Donkey</label>
 
           </p>
           <p>
-            <label class='label' for='tiger_type'>Type of tiger</label>
+            <label className='label' htmlFor='tiger_type'>Type of tiger</label>
             <input type='text' name='tiger_type' id='tiger_type' />
           </p>
         </fieldset>
